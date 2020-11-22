@@ -44,3 +44,32 @@ header a:hover {
   color: rgb(75 117 160);
   transition: .3s;
 }
+
+/*======================
+
+ Home Section Styling
+
+=======================*/
+
+.top-hero {
+  background: url("../images/clouds.jpg") center/cover no-repeat fixed;
+  min-height: 80vh;
+  position: relative;
+  z-index: 2;
+}
+
+h1.main {
+  font-size: 64px;
+  color: white;
+  text-shadow: 1px 1px 4px black;
+  position: absolute;
+  right: 75px;
+  top: 200px;
+}
+
+img.plane {
+  position: absolute;
+  left: 10px;
+  top: 275px;
+  animation: fly 10s linear infinite;
+}
