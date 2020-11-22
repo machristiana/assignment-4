@@ -1,0 +1,46 @@
+/*======================
+
+ Universal Styling
+
+=======================*/
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*======================
+
+ Header Styling
+
+=======================*/
+
+header {
+  background: rgb(138 94 114 / 89%);
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+header li {
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  margin: 7px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+header a:hover {
+  color: rgb(75 117 160);
+  transition: .3s;
+}
