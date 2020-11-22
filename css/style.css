@@ -171,3 +171,18 @@ h2.title {
   background: white;
   padding: 12px;
 }
+
+/*======================
+
+ Animation Section
+
+=======================*/
+
+@keyframes fly {
+  from {
+    left: -300px
+  }
+  to {
+    left: 1500px;
+  }
+}
