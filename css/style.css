@@ -73,3 +73,49 @@ img.plane {
   top: 275px;
   animation: fly 10s linear infinite;
 }
+
+/*=============================
+
+ Top Cities Section Styling
+
+==============================*/
+
+.section {
+  background: url("../images/water.jpg") center/cover no-repeat scroll;
+  position: relative;
+}
+
+h2.title {
+  font-size: 56px;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  text-shadow: 1px 1px 4px black;
+}
+
+.emphasis {
+  color: pink;
+  font-weight: bold;
+}
+
+.cities {
+  clear: both;
+  text-align: center;
+}
+
+.individual-city {
+  display: inline-block;
+  position: relative;
+  width: 28%;
+  padding: 20px 0 40px 0;
+}
+
+.individual-city h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 36px;
+  text-shadow: 1px 1px 4px black;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
